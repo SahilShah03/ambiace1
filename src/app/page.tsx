@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
-const HERO_IMAGES = [
+const HERO_images = [
   "/images/Banner.png",
   "/images/b7.png",
   "/images/banner3.png",
