@@ -52,7 +52,7 @@ export default function Contact() {
         </div>
         {/* Map or Location Image */}
         <div className="w-full mt-12 flex justify-center">
-          <img src="/Images/inbg.jpg" alt="AmbiAce Location" className="w-full max-w-2xl h-64 object-cover rounded-xl shadow" />
+          <img src="/images/inbg.jpg" alt="AmbiAce Location" className="w-full max-w-2xl h-64 object-cover rounded-xl shadow" />
         </div>
       </main>
       {/* Feature Bar */}
