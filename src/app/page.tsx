@@ -2,11 +2,11 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
-const HERO_IMAGES = [
-  "/Images/Banner.png",
-  "/Images/b7.png",
-  "/Images/banner3.png",
-  "/Images/products/planter.jpg",
+const HERO_images = [
+  "/images/Banner.png",
+  "/images/b7.png",
+  "/images/banner3.png",
+  "/images/products/planter.jpg",
 ];
 
 export default function Home() {
@@ -30,9 +30,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative w-full min-h-[400px] md:h-[812px] flex items-center justify-center overflow-hidden">
         <img
-          src={HERO_IMAGES[slide]}
+          src={HERO_images[slide]}
           alt={`Hero slide ${slide + 1}`}
-          className={`absolute inset-0 w-full h-full object-cover object-center transition-all duration-500 ${HERO_IMAGES[slide] === '/Images/b7.png' ? 'object-contain bg-white' : ''}`}
+          className={`absolute inset-0 w-full h-full object-cover object-center transition-all duration-500 ${HERO_images[slide] === '/images/b7.png' ? 'object-contain bg-white' : ''}`}
         />
         <div className="relative z-20 flex w-full h-full items-center justify-center md:justify-end">
           <div className="bg-[#F7E9D0] bg-opacity-95 rounded-xl shadow-xl p-4 sm:p-8 md:p-16 max-w-xs w-[90vw] sm:max-w-xl sm:w-[96vw] md:w-[600px] flex flex-col gap-4 sm:gap-8 items-center text-center md:items-start md:text-left md:mr-24">
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
         {/* Carousel dots */}
         <div className="absolute bottom-4 sm:bottom-10 left-1/2 -translate-x-1/2 flex gap-3 sm:gap-6 z-30">
-          {HERO_IMAGES.map((_, idx) => (
+          {HERO_images.map((_, idx) => (
             <button
               key={idx}
               className={`relative w-7 h-7 flex items-center justify-center focus:outline-none`}
@@ -72,15 +72,15 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
           <div className="flex flex-col items-center cursor-pointer">
-            <img src="/Images/t1.jpg" alt="Table" className="w-full h-64 object-cover rounded-xl transition-transform duration-300 hover:scale-105" />
+            <img src="/images/t1.jpg" alt="Table" className="w-full h-64 object-cover rounded-xl transition-transform duration-300 hover:scale-105" />
             <span className="text-xl font-bold text-gray-900 mt-4">Table</span>
           </div>
           <div className="flex flex-col items-center cursor-pointer">
-            <img src="/Images/v1.png" alt="Vase" className="w-full h-64 object-cover rounded-xl transition-transform duration-300 hover:scale-105" />
+            <img src="/images/v1.png" alt="Vase" className="w-full h-64 object-cover rounded-xl transition-transform duration-300 hover:scale-105" />
             <span className="text-xl font-bold text-gray-900 mt-4">Vase</span>
           </div>
           <div className="flex flex-col items-center cursor-pointer">
-            <img src="/Images/v8.png" alt="Vase" className="w-full h-64 object-cover rounded-xl transition-transform duration-300 hover:scale-105" />
+            <img src="/images/v8.png" alt="Vase" className="w-full h-64 object-cover rounded-xl transition-transform duration-300 hover:scale-105" />
             <span className="text-xl font-bold text-gray-900 mt-4">Vase</span>
           </div>
         </div>
@@ -90,14 +90,14 @@ export default function Home() {
         <h2 className="text-center text-xl text-gray-700 font-medium mb-2">Share your setup with</h2>
         <div className="text-center text-4xl font-extrabold mb-10">#3DFurniture</div>
         <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
-          <img src="/Images/v5.jpg" alt="Table" className="w-full mb-4 rounded-xl break-inside-avoid" />
-          <img src="/Images/t1.jpg" alt="dsdsd" className="w-full mb-4 rounded-xl break-inside-avoid" />
-          <img src="/Images/t2.jpg" alt="dsds" className="w-full mb-4 rounded-xl break-inside-avoid" />
-          <img src="/Images/v8.png" alt="dsds" className="w-full mb-4 rounded-xl break-inside-avoid" />
-          <img src="/Images/v4.jpg" alt="Ch" className="w-full mb-4 rounded-xl break-inside-avoid" />
-          <img src="/Images/v8.png" alt="rt" className="w-full mb-4 rounded-xl break-inside-avoid" />
-          <img src="/Images/t1.jpg" alt="ter" className="w-full mb-4 rounded-xl break-inside-avoid" />
-          <img src="/Images/v3.png" alt="ers" className="w-full mb-4 rounded-xl break-inside-avoid" />
+          <img src="/images/v5.jpg" alt="Table" className="w-full mb-4 rounded-xl break-inside-avoid" />
+          <img src="/images/t1.jpg" alt="dsdsd" className="w-full mb-4 rounded-xl break-inside-avoid" />
+          <img src="/images/t2.jpg" alt="dsds" className="w-full mb-4 rounded-xl break-inside-avoid" />
+          <img src="/images/v8.png" alt="dsds" className="w-full mb-4 rounded-xl break-inside-avoid" />
+          <img src="/images/v4.jpg" alt="Ch" className="w-full mb-4 rounded-xl break-inside-avoid" />
+          <img src="/images/v8.png" alt="rt" className="w-full mb-4 rounded-xl break-inside-avoid" />
+          <img src="/images/t1.jpg" alt="ter" className="w-full mb-4 rounded-xl break-inside-avoid" />
+          <img src="/images/v3.png" alt="ers" className="w-full mb-4 rounded-xl break-inside-avoid" />
         </div>
       </section>
       {/* Our Products Section */}
@@ -109,19 +109,19 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div className="flex flex-col">
-            <img src="/Images/t1.jpg" alt="WaveZ Stool" className="w-full h-[340px] object-cover rounded-lg" />
+            <img src="/images/t1.jpg" alt="WaveZ Stool" className="w-full h-[340px] object-cover rounded-lg" />
             <span className="text-lg font-bold text-[#7A5A32] mt-4">WaveZ Stool</span>
           </div>
           <div className="flex flex-col">
-            <img src="/Images/v1.png" alt="Spheria Coffee Table" className="w-full h-[340px] object-cover rounded-lg" />
+            <img src="/images/v1.png" alt="Spheria Coffee Table" className="w-full h-[340px] object-cover rounded-lg" />
             <span className="text-lg font-bold text-[#7A5A32] mt-4">Spheria Coffee Table</span>
           </div>
           <div className="flex flex-col">
-            <img src="/Images/v8.png" alt="Waverly Coffee table" className="w-full h-[340px] object-cover rounded-lg" />
+            <img src="/images/v8.png" alt="Waverly Coffee table" className="w-full h-[340px] object-cover rounded-lg" />
             <span className="text-lg font-bold text-[#7A5A32] mt-4">Waverly Coffee table</span>
           </div>
           <div className="flex flex-col">
-            <img src="/Images/b7.png" alt="Loopy Chair" className="w-full h-[340px] object-cover rounded-lg" />
+            <img src="/images/b7.png" alt="Loopy Chair" className="w-full h-[340px] object-cover rounded-lg" />
             <span className="text-lg font-bold text-[#7A5A32] mt-4">Loopy Chair</span>
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function Home() {
         <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">Founder</h2>
         <div className="w-16 h-1 bg-[#B1914A] rounded mb-8"></div>
         <div className="flex flex-col md:flex-row items-center md:items-start w-full gap-8">
-          <img src="/Images/fo.jpg" alt="Kshitiji Sakpal" className="w-48 h-48 object-cover rounded-full border-4 border-[#B1914A] mb-6 md:mb-0" />
+          <img src="/images/fo.jpg" alt="Kshitiji Sakpal" className="w-48 h-48 object-cover rounded-full border-4 border-[#B1914A] mb-6 md:mb-0" />
           <div className="flex-1 flex flex-col items-center md:items-start">
             <p className="text-xl text-gray-700 font-semibold mb-2 text-center md:text-left">Kshitiji Sakpal</p>
             <p className="text-lg text-gray-600 max-w-2xl text-center md:text-left">Kshitiji Sakpal is the visionary founder of 3DFurniture, dedicated to blending modern design with innovative craftsmanship. With a passion for creating unique and functional pieces, Kshitiji leads the brand to deliver exceptional quality and style for every home.</p>
@@ -179,7 +179,7 @@ export default function Home() {
           {/* Brand & Social */}
           <div className="flex flex-col items-start md:col-span-1 mb-8 md:mb-0">
             <div className="flex flex-row items-center mb-6 gap-4">
-              <img src="/Images/comlogoo.png" alt="AmbiAce Logo" className="w-20 h-20 object-contain" />
+              <img src="/images/comlogoo.png" alt="AmbiAce Logo" className="w-20 h-20 object-contain" />
               <div className="flex flex-col items-start">
                 <span className="font-serif text-5xl font-normal tracking-wide text-teal-700 leading-none">AmbiAce</span>
                 <span className="text-teal-700 text-base mt-2">Ace up your Ambience</span>
