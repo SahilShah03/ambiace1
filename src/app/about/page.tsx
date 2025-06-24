@@ -1,4 +1,4 @@
-import IMAGES from "next/Image";
+import image from "next/image";
 import Footer from '../../components/Footer';
 import ScrollToTop from '../../components/ScrollToTop';
 
