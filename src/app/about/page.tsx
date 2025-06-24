@@ -6,9 +6,9 @@ export default function About() {
   return (
     <div className="w-full bg-[#fafbfa]">
       {/* Hero Section */}
-{/*       <section className="w-full relative h-[500px] md:h-[700px] flex items-center justify-center overflow-hidden">
+      <section className="w-full relative h-[500px] md:h-[700px] flex items-center justify-center overflow-hidden">
         <Image src="/images/Banner.png" alt="Hero Banners" className="absolute inset-0 w-full h-full object-cover object-center" width={1920} height={700} />
-      </section> */}
+      </section>
 
       {/* Brand Story Section */}
       <div className="w-full flex flex-col items-center mt-12 mb-12">
