@@ -1,6 +1,6 @@
 'use client';
 import ProductCard, { Product } from "../../components/ProductCard";
-import Image from "next/Image";
+import Image from "next/image";
 import React from "react";
 import Footer from "../../components/Footer";
 import ScrollToTop from "../../components/ScrollToTop";
