@@ -13,7 +13,7 @@ export default function Shop() {
       subtitle: "Stylish cafe chair",
       price: "Rp 2.500.000",
       oldPrice: "Rp 3.500.000",
-      image: "/Images/products/chairs.jpg",
+      image: "/images/products/chairs.jpg",
       badge: "-30%",
       badgeType: "sale",
     },
@@ -22,7 +22,7 @@ export default function Shop() {
       name: "Leviosa",
       subtitle: "Stylish cafe chair",
       price: "Rp 2.500.000",
-      image: "/Images/products/chairs.jpg",
+      image: "/images/products/chairs.jpg",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ export default function Shop() {
       subtitle: "Luxury big sofa",
       price: "Rp 7.000.000",
       oldPrice: "Rp 14.000.000",
-      image: "/Images/products/tables.jpg",
+      image: "/images/products/tables.jpg",
       badge: "-50%",
       badgeType: "sale",
     },
@@ -39,7 +39,7 @@ export default function Shop() {
       name: "Respira",
       subtitle: "Outdoor bar table and stool",
       price: "Rp 500.000",
-      image: "/Images/products/planter.jpg",
+      image: "/images/products/planter.jpg",
       badge: "New",
       badgeType: "new",
     },
@@ -49,7 +49,7 @@ export default function Shop() {
       subtitle: "Stylish cafe chair",
       price: "Rp 2.500.000",
       oldPrice: "Rp 3.500.000",
-      image: "/Images/products/chairs.jpg",
+      image: "/images/products/chairs.jpg",
       badge: "-30%",
       badgeType: "sale",
     },
@@ -58,7 +58,7 @@ export default function Shop() {
       name: "Leviosa",
       subtitle: "Stylish cafe chair",
       price: "Rp 2.500.000",
-      image: "/Images/products/chairs.jpg",
+      image: "/images/products/chairs.jpg",
     },
     {
       id: 7,
@@ -66,7 +66,7 @@ export default function Shop() {
       subtitle: "Luxury big sofa",
       price: "Rp 7.000.000",
       oldPrice: "Rp 14.000.000",
-      image: "/Images/products/tables.jpg",
+      image: "/images/products/tables.jpg",
       badge: "-50%",
       badgeType: "sale",
     },
@@ -75,7 +75,7 @@ export default function Shop() {
       name: "Respira",
       subtitle: "Outdoor bar table and stool",
       price: "Rp 500.000",
-      image: "/Images/products/planter.jpg",
+      image: "/images/products/planter.jpg",
       badge: "New",
       badgeType: "new",
     },
@@ -85,7 +85,7 @@ export default function Shop() {
       subtitle: "Stylish cafe chair",
       price: "Rp 2.500.000",
       oldPrice: "Rp 3.500.000",
-      image: "/Images/products/chairs.jpg",
+      image: "/images/products/chairs.jpg",
       badge: "-30%",
       badgeType: "sale",
     },
@@ -94,7 +94,7 @@ export default function Shop() {
       name: "Leviosa",
       subtitle: "Stylish cafe chair",
       price: "Rp 2.500.000",
-      image: "/Images/products/chairs.jpg",
+      image: "/images/products/chairs.jpg",
     },
     {
       id: 11,
@@ -102,7 +102,7 @@ export default function Shop() {
       subtitle: "Luxury big sofa",
       price: "Rp 7.000.000",
       oldPrice: "Rp 14.000.000",
-      image: "/Images/products/tables.jpg",
+      image: "/images/products/tables.jpg",
       badge: "-50%",
       badgeType: "sale",
     },
@@ -111,7 +111,7 @@ export default function Shop() {
       name: "Respira",
       subtitle: "Outdoor bar table and stool",
       price: "Rp 500.000",
-      image: "/Images/products/planter.jpg",
+      image: "/images/products/planter.jpg",
       badge: "New",
       badgeType: "new",
     },
@@ -159,7 +159,7 @@ export default function Shop() {
     <div className="w-full min-h-screen bg-gray-50">
       {/* Header with background image */}
       <div className="w-full h-48 md:h-64 relative flex items-center justify-center bg-gray-200">
-        <Image src="/Images/inbg.jpg" alt="Shop Banner" fill className="object-cover object-center opacity-70" />
+        <Image src="/images/inbg.jpg" alt="Shop Banner" fill className="object-cover object-center opacity-70" />
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 drop-shadow-lg">Shop</h1>
           <div className="mt-2 text-gray-700 text-sm flex items-center gap-2">
