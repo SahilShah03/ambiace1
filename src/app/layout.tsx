@@ -32,7 +32,7 @@ export default function RootLayout({
             {/* Logo */}
             <div className="flex items-center gap-2 min-w-[180px] w-full md:w-auto justify-between">
               <div className="flex items-center gap-2">
-                <Image src="/Images/comlogoo.png" alt="Ambiace Logo" width={52} height={52} className="object-contain" />
+                <Image src="/images/comlogoo.png" alt="Ambiace Logo" width={52} height={52} className="object-contain" />
                 <span className="font-serif text-3xl tracking-wide font-normal">AMBI<span className="font-extrabold">ACE</span></span>
               </div>
               {/* Hamburger */}
