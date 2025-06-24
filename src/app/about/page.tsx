@@ -7,7 +7,7 @@ export default function About() {
     <div className="w-full bg-[#fafbfa]">
       {/* Hero Section */}
       <section className="w-full relative h-[500px] md:h-[700px] flex items-center justify-center overflow-hidden">
-        <Image src="/Images/banner.png" alt="AmbiAce Hero" className="absolute inset-0 w-full h-full object-cover object-center" width={1920} height={700} />
+        <Image src="/images/banner.png" alt="AmbiAce Hero" className="absolute inset-0 w-full h-full object-cover object-center" width={1920} height={700} />
       </section>
 
       {/* Brand Story Section */}
@@ -28,7 +28,7 @@ export default function About() {
               <div className="w-[28rem] h-[28rem] rounded-full bg-gradient-to-br from-[#3a4a7c]/60 to-[#27345C]/0 blur-2xl opacity-70"></div>
             </div>
             <Image
-              src="/Images/v22.png"
+              src="/images/v22.png"
               alt="Vase"
               className="w-[26rem] h-[600px] object-contain drop-shadow-2xl relative z-10"
               width={416}
@@ -58,7 +58,7 @@ export default function About() {
           {/* Image with border */}
           <div className="bg-white p-2 rounded-lg border-2 border-[#3a4a7c] shadow-lg flex-shrink-0">
             <Image
-              src="/Images/v44.png"
+              src="/images/v44.png"
               alt="Vision Shelf"
               className="w-[340px] h-[440px] object-contain rounded-md"
               width={340}
@@ -87,7 +87,7 @@ export default function About() {
           <div className="flex-1 flex justify-center items-center bg-white p-6">
             <div className="border-2 border-[#3a4a7c] rounded-md">
               <Image
-                src="/Images/banner4.png"
+                src="/images/banner4.png"
                 alt="Why Us"
                 className="w-[420px] h-[420px] object-cover rounded-md"
                 width={420}
@@ -127,11 +127,11 @@ export default function About() {
       <section className="w-full bg-white pt-8 pb-16">
         <h2 className="text-5xl font-extrabold text-black text-center pb-8 tracking-tight">OUR PROCESS</h2>
         <div className="max-w-7xl mx-auto flex flex-col items-center">
-          {/* Images Row */}
+          {/* images Row */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8 w-full">
-            <Image src="/Images/products/chairs.jpg" alt="Process 1" className="w-64 h-48 object-cover rounded-2xl shadow-md" width={256} height={192} />
-            <Image src="/Images/v22.png" alt="Process 2" className="w-64 h-48 object-cover rounded-2xl shadow-md" width={256} height={192} />
-            <Image src="/Images/products/chairs.jpg" alt="Process 3" className="w-64 h-48 object-cover rounded-2xl shadow-md" width={256} height={192} />
+            <Image src="/images/products/chairs.jpg" alt="Process 1" className="w-64 h-48 object-cover rounded-2xl shadow-md" width={256} height={192} />
+            <Image src="/images/v22.png" alt="Process 2" className="w-64 h-48 object-cover rounded-2xl shadow-md" width={256} height={192} />
+            <Image src="/images/products/chairs.jpg" alt="Process 3" className="w-64 h-48 object-cover rounded-2xl shadow-md" width={256} height={192} />
           </div>
           {/* Cards Row */}
           <div className="grid grid-cols-1 md:grid-cols-5 gap-4 w-full px-2 md:px-0">
@@ -176,27 +176,27 @@ export default function About() {
         <p className="text-gray-500 text-lg text-center mb-10 max-w-2xl">We leverage cutting-edge technologies to deliver innovative, high-quality décor solutions for our clients.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
           <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow">
-            <Image src="/Images/technology.jpg" alt="3D Printing" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
+            <Image src="/images/technology.jpg" alt="3D Printing" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
             <h3 className="font-bold text-xl mb-2">3D Printing</h3>
             <p className="text-gray-600">State-of-the-art 3D printing for bespoke, precise, and scalable creations.</p>
           </div>
           <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow">
-            <Image src="/Images/v3.png" alt="CAD Design" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
+            <Image src="/images/v3.png" alt="CAD Design" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
             <h3 className="font-bold text-xl mb-2">CAD Design</h3>
             <p className="text-gray-600">Advanced computer-aided design for accuracy and creative freedom.</p>
           </div>
           <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow">
-            <Image src="/Images/v4.jpg" alt="Sustainable Materials" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
+            <Image src="/images/v4.jpg" alt="Sustainable Materials" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
             <h3 className="font-bold text-xl mb-2">Sustainable Materials</h3>
             <p className="text-gray-600">Eco-friendly, durable materials for responsible, lasting décor.</p>
           </div>
           <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow">
-            <Image src="/Images/v5.jpg" alt="Advanced Finishing" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
+            <Image src="/images/v5.jpg" alt="Advanced Finishing" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
             <h3 className="font-bold text-xl mb-2">Advanced Finishing</h3>
             <p className="text-gray-600">Refined surface treatments for a premium, artistic look and feel.</p>
           </div>
           <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow">
-            <Image src="/Images/v8.png" alt="Digital Fabrication" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
+            <Image src="/images/v8.png" alt="Digital Fabrication" className="w-16 h-16 object-contain mb-4" width={64} height={64} />
             <h3 className="font-bold text-xl mb-2">Digital Fabrication</h3>
             <p className="text-gray-600">Seamless integration of digital tools for efficient, innovative production.</p>
           </div>
