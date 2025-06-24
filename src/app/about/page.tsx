@@ -7,7 +7,7 @@ export default function About() {
     <div className="w-full bg-[#fafbfa]">
       {/* Hero Section */}
       <section className="w-full relative h-[500px] md:h-[700px] flex items-center justify-center overflow-hidden">
-        <Image src="/images/banner.png" alt="AAAAAA Hero" className="absolute inset-0 w-full h-full object-cover object-center" width={1920} height={700} />
+        <Image src="/images/Banner.png" alt="AAAAAA Hero" className="absolute inset-0 w-full h-full object-cover object-center" width={1920} height={700} />
       </section>
 
       {/* Brand Story Section */}
